@@ -1,0 +1,75 @@
+/* Container */
+.success-stories-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  .page-title {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Story Card */
+  .stories-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .story-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+  }
+  
+  .story-image {
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .story-title {
+    font-size: 20px;
+    margin: 15px 0 5px;
+    color: #333;
+  }
+  
+  .story-author {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .story-snippet {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .story-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+  
+  .story-link:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+  }
+  
